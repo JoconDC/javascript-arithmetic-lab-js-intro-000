@@ -1,3 +1,4 @@
+// Basic Math Operator
 function add() {
   return 2 + 2;
 }
@@ -9,4 +10,12 @@ function multiply() {
 }
 function divide() {
   return 12 / 3;
+}
+// Increment & Decrement
+n = 5
+function increment() {
+   return n++;
+}
+function decrement() {
+  return n--;
 }
