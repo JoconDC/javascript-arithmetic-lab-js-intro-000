@@ -1,10 +1,12 @@
-function makeInt(string) {
-  return parseInt(12.4555555, 10);
+function add() {
+  return 2 + 2;
 }
-
-function preserveDecimal(string) {
-  return parseFloat(12.455555, 10);
+function subtract() {
+  return 5 - 3;
 }
-
-makeInt();
-preserveDecimal();
+function multiply() {
+  return 4 * 4;
+}
+function divide() {
+  return 12 / 3;
+}
