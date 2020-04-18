@@ -12,7 +12,7 @@ function divide() {
   return 12 / 3;
 }
 // Increment & Decrement
-n = 5
+var n = 5
 function increment() {
    return n++;
 }
