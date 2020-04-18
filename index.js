@@ -29,4 +29,12 @@ function decrement(n) {
   return n;
 }
 
-//
+//ParseInt and parseFloat
+var string = 3.888888
+function makeInt(string) {
+  return parseInt(string, 10);
+}
+
+function preserveDecimal(string) {
+  return parseFloat(string, 10);
+}
