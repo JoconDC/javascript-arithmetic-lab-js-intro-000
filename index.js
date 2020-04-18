@@ -11,6 +11,7 @@ function multiply() {
 function divide() {
   return 12 / 3;
 }
+
 // Increment & Decrement
 var numbers = 5
 function increment() {
@@ -19,3 +20,8 @@ function increment() {
 function decrement(n) {
   return number --;
 }
+increment();
+console.log(number);
+
+decrement();
+console.log(number);
