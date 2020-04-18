@@ -14,8 +14,8 @@ function divide() {
 // Increment & Decrement
 var n = 5
 function increment() {
-   return n+= 1;
+   return n += 1;
 }
 function decrement() {
-  return n-= 2;
+  return n -= 2;
 }
