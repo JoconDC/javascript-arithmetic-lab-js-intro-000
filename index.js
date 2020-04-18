@@ -13,10 +13,10 @@ function divide() {
 }
 // Increment & Decrement
 var n = 5
-function increment() {
+function increment(n) {
    return n ++;
 }
-function decrement() {
+function decrement(n) {
   return n --;
 }
 increment();
