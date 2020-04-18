@@ -5,3 +5,6 @@ function makeInt(string) {
 function preserveDecimal(string) {
   return parseFloat(12.455555, 10);
 }
+
+makeInt();
+preserveDecimal();
