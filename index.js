@@ -1,27 +1,17 @@
 // Basic Math Operator
+
+var a = 6;
+var b = 3;
+
 function add() {
-  return 2 + 2;
+  return a + b;
 }
 function subtract() {
-  return 5 - 3;
+  return a - b;
 }
 function multiply() {
-  return 4 * 4;
+  return a * b;
 }
 function divide() {
-  return 12 / 3;
+  return a / b;
 }
-
-// Increment & Decrement
-var numbers = 5
-function increment() {
-   return number ++;
-}
-function decrement(n) {
-  return number --;
-}
-increment();
-console.log(number);
-
-decrement();
-console.log(number);
