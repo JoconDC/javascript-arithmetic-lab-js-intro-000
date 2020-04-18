@@ -15,3 +15,14 @@ function multiply(a, b) {
 function divide(a, b) {
   return a / b;
 }
+
+// Increment and decrement
+var n = 5;
+
+function increment(n) {
+  return n ++;
+}
+
+function decrement(n) {
+  return n --;
+}
