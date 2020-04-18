@@ -20,9 +20,11 @@ function divide(a, b) {
 var n = 5;
 
 function increment() {
-  return n++;
+   n++;
+   return n;
 }
 
 function decrement() {
-  return n--;
+  n--;
+  return n;
 }
