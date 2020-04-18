@@ -19,3 +19,5 @@ function increment() {
 function decrement() {
   return n --;
 }
+increment();
+decrement();
